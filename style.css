@@ -14,6 +14,11 @@ body {
     font-size: 60px;
   }
 
+  .top-container {
+    position:fixed;
+    width: 100%;
+  }
+
   /* this is for black panel on the top */
   .top-bar {
     background-color: black;
@@ -77,4 +82,12 @@ body {
   .bottom-bar-text-container {
     text-align: center;
     width: 100%;
+  }
+
+  .top-image {
+    width: 100%; 
+    height: 500px; 
+    background-image: url('images/Interior-National-Gallery-of-Art-Washington-DC.jpg.webp');
+    background-size: cover; 
+    background-position: center;
   }
