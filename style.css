@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+  }
+
+  h1 {
+    position: absolute;
+    /* h1 font is garamond but when garamond is not there use serif */
+    font-family: 'EB Garamond', serif;
+
+    /* h1 text is now at center */
+    text-align: center;
+
+    /* h1 text is bigger */
+    font-size: 60px;
+  }
+
+  /* this is for black panel on the top */
+  .top-bar {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* button group is like a variable name and button is like reserv word */
+  .button-group button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px; /* inside button, space between top bottom, right left */
+    margin-left: 15px;
+    font-family: serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 1s;
+  }
+
+  /* for button group, hover effect*/
+  .button-group button:hover {
+    background-color: #ccc;
+  }
