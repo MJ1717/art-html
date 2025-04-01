@@ -25,6 +25,16 @@ body {
     justify-content: center;
   }
 
+  .bottom-bar {
+    background-color: rgb(53, 53, 53);
+    height: 50px;
+  }
+
+  .bottom-bar-top {
+    height: 5px;
+    background-color: rgb(181, 42, 0);
+  }
+
   /* button group is like a variable name and button is like reserv word */
   .button-group button {
     background-color: white;
@@ -40,7 +50,27 @@ body {
     transition: 1s;
   }
 
+  .bottom-bar-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(194, 194, 194);
+    cursor: pointer;
+    transition: 0.5s;
+    word-spacing: 50px;
+  }
+
+  .bottom-bar-text:hover {
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  }
+
   /* for button group, hover effect*/
   .button-group button:hover {
     background-color: #ccc;
+  }
+
+  .bottom-bar-text-container {
+    text-align: center;
   }
