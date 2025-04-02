@@ -92,7 +92,7 @@ body {
 
   .second-container {
     height:600px;
-    background-color: pink;
+    
   }
 
   .second-container-text {
@@ -106,7 +106,8 @@ body {
     font-size: 70px;
     align-items: center;
     font-weight: 600;
-    background-color: aqua;
+    
+    
   }
 
   .second-container-pic1 {
@@ -114,15 +115,46 @@ body {
     margin-top: 0px;
     height: 400px;
     width: 600px;
-    background-color: red;
+
     margin-left: 100px;
+    display: inline-block;
+
+  }
+
+  .image-2 {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
   }
 
   .second-container-pic2 {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 100px;
-    height: 400px;
+    height: 480px;
     width: 450px;
-    background-color:bisque;
+  
+    vertical-align: top;
   }
+
+  .image-3 {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .last-supper-text {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .last-supper-text-explain {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#4f4f4f; 
+    font-weight: 200;
+  }
+
+  
