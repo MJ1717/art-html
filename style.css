@@ -15,9 +15,17 @@ body {
   }
 
   .top-container {
+    top:0;
     position: fixed;
     width: 100%;
     z-index: 10;
+    transition: top 0.3s ease;
+    height: 170px;
+  }
+
+  /* move top container 200px up, so make it go away */
+  .top-container.hidden {
+    top: -170px; 
   }
 
   /* this is for black panel on the top */
