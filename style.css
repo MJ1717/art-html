@@ -19,7 +19,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 10;
-    transition: top 0.3s ease;
+    transition: top 0.5s ease;
     height: 170px;
   }
 
