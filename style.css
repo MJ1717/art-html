@@ -256,6 +256,12 @@ body {
     background-color: red;
     height:40px;
     flex:1;
+    display: flex;
+    align-items: center;
+  }
+
+  .bottom-container-3-button-1 {
+    margin-left: 50px;
   }
 
   
